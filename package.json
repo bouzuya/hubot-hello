@@ -1,0 +1,35 @@
+{
+  "name": "hubot-hello",
+  "version": "0.0.0",
+  "description": "A Hubot script for greeting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require espower-coffee/guess --reporter spec test/**/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/hubot-hello.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/hubot-hello/issues"
+  },
+  "homepage": "https://github.com/bouzuya/hubot-hello",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "espower-coffee": "^0.1.0",
+    "hubot": "^2.8.0",
+    "mocha": "^1.20.1",
+    "power-assert": "^0.7.2",
+    "sinon": "^1.10.3"
+  }
+}
